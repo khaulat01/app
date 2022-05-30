@@ -1,0 +1,21 @@
+#pip install streamlit
+#pip install sklearn
+#pip install pandas
+
+#IMPORT STATEMENTS
+import streamlit as st
+import pandas as pd
+from PIL import Image
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.metrics import f1_score, confusion_matrix, accuracy_score, classification_report
+import plotly.figure_factory as ff
+from sklearn.linear_model import LogisticRegression
+import seaborn as sns
+import plotly.express as px
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+import warnings
+warnings.filterwarnings("ignore")
+from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split 
