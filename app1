@@ -1,1 +1,2 @@
-
+st.title('Reading Data')
+df = pd.read_csv(r'C:\Users\20199\OneDrive\Desktop\PROJECT\diabetes.csv')
